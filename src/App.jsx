@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   Activity, AudioLines, BatteryCharging, Check, ChevronDown, CircleHelp, Clock3,
-  Cpu, Heart, History, House, Info, MessageCircle, Monitor, Radio, RotateCcw,
-  Settings2, ShieldCheck, Signal, SlidersHorizontal, Sparkles, Waves, Wifi,
-  X, Zap, Send, CircleDot, ArrowUpRight, Volume2, PanelLeftClose, Menu
+  Cpu, Heart, History, Info, MessageCircle, Radio, RotateCcw,
+  Settings2, ShieldCheck, Signal, SlidersHorizontal, Sparkles, Waves,
+  X, Zap, Send, CircleDot, ArrowUpRight, Menu
 } from "lucide-react";
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { PHRASES } from "./data/phrases";
