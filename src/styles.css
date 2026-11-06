@@ -374,3 +374,7 @@ h1,h2,h3,p { margin-top: 0; }
 .range-edit-row input { width:100%; min-width:0; border:1px solid #e5e8f0; border-radius:6px; padding:6px; color:#43506a; font-size:10px; }
 .range-actions { margin-top:12px; display:flex; justify-content:space-between; align-items:center; gap:8px; color:#929bab; font-size:9px; }
 @media (max-width:520px) { .range-edit-row { grid-template-columns:1fr 1fr; } .range-edit-row strong { grid-column:1/-1; } .range-actions { align-items:flex-start; flex-direction:column; } }
+
+/* Raw ADC waveform chart */
+.chart-container { position: relative; }
+.waveform-empty { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:24px; color:#929bb0; font-size:12px; text-align:center; pointer-events:none; }
