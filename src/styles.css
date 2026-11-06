@@ -363,3 +363,14 @@ h1,h2,h3,p { margin-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   *,*::before,*::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
 }
+
+/* USB serial frequency integration */
+.serial-error { display:flex; align-items:center; gap:8px; margin:-9px 0 18px; padding:11px 13px; border:1px solid #f3d8d5; border-radius:9px; background:#fff7f6; color:#b65d52; font-size:10px; }
+.connected-dot,.status-connected i { background:#19a777 !important; }
+.range-editor { display:grid; gap:9px; margin-top:17px; }
+.range-edit-row { display:grid; grid-template-columns:minmax(70px,1fr) minmax(90px,1fr) minmax(90px,1fr); align-items:center; gap:10px; padding:9px 10px; border:1px solid #edf0f5; border-radius:8px; }
+.range-edit-row strong { font-size:10px; color:#445069; }
+.range-edit-row label { display:flex; align-items:center; gap:6px; color:#9099a9; font-size:9px; }
+.range-edit-row input { width:100%; min-width:0; border:1px solid #e5e8f0; border-radius:6px; padding:6px; color:#43506a; font-size:10px; }
+.range-actions { margin-top:12px; display:flex; justify-content:space-between; align-items:center; gap:8px; color:#929bab; font-size:9px; }
+@media (max-width:520px) { .range-edit-row { grid-template-columns:1fr 1fr; } .range-edit-row strong { grid-column:1/-1; } .range-actions { align-items:flex-start; flex-direction:column; } }
